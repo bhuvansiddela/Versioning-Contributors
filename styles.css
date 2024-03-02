@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #29323C; /* Dark grey background color */
+    color: #f5f5f5; /* Light text color */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  #game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #29323C; /* Dark grey background color */
+  }
+  
+  canvas {
+    border: 10px solid #FDCB6E; /* Light orange border, increased thickness */
+    background-color: #1A759F; /* Cobalt blue background */
+    border-radius: 10px; /* Rounded corners for a softer look */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Dark shadow */
+  }
+  
+  #score {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #FDCB6E; /* Light orange score text color */
+  }
+  
